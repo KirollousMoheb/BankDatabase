@@ -42,7 +42,7 @@ public class Bank {
             for (int i = 0; i <numberOfCustomers; i++) {
                 int counter=i+1;
 
-                System.out.println("Customer "+counter+" name is===>"+findBranch(branch).getCustomers().get(i).getCustomerName()+"with Transictions ");
+                System.out.println("Customer "+counter+" name is===>"+findBranch(branch).getCustomers().get(i).getCustomerName()+"with Transactions ");
                 int numberOfTransactions=findBranch(branch).getCustomers().get(i).getTransactions().size();
                 ArrayList <Double> customerTransactions=findBranch(branch).getCustomers().get(i).getTransactions();
 
