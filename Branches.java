@@ -22,6 +22,7 @@ public class Branches {
     public void addNewCustomer(String name, double initialTransaction){
         if (findCustomer(name) == null) {
             customers.add(new Customers(name,initialTransaction));
+            System.out.println("Customer "+name+" was added Successfully to "+branchName+" Branch with Initial Transictions  "+initialTransaction+"$");
 
         }
         else{
